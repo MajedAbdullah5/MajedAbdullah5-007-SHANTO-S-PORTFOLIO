@@ -1,0 +1,91 @@
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    width: 99%;
+    padding: 0;
+    margin: 0;
+}
+#image{
+    text-align: center;
+    width: 400px;
+}
+.mainDiv{
+    background-color: #aeaeae;
+    height: 65vh;
+
+}
+.titlePageRow{
+    padding-top: 120px;
+}
+.servicecard{
+    width: 100%;
+    height: 220px;
+    text-align: center;
+
+}
+
+.card{
+    border-radius: 0;
+    text-align: center;
+    margin: 10px;
+}
+
+#testimonial{
+    background-color: #f63854;
+    padding: 70px;
+}
+/*Message Layout*/
+.messagePage{
+    background-image: url('../image/banner/contact.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*Footer Layout*/
+.footerPage{
+    background-color: #0e2231;
+}
+.footerClass{
+    color: white;
+    list-style: none;
+    line-height: 40px;
+}
+.footerHeader{
+    color: #d54855;
+}
+.copyright{
+    background-color: #d54855;
+}
+.copyright p{
+    padding-top: 15px;
+}
+
+/*Portfolio*/
+
+/*project*/
+.project_image{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*Home Quote*/
+.des-text{
+    color: #636363!important;
+    font-size: 14px;
+    font-weight: 300;
+}
+.quoteImage{
+    width: 70px;
+    height: 70px;
+}
+
+/*navbar*/
+navbar.navbar-light .breadcrumb .nav-item.active>.nav-link, .navbar.navbar-light .navbar-nav .nav-item.active>.nav-link {
+     background-color: rgba(0,0,0,0)!important;
+}
+.nav-item{
+    padding: 20px;
+}
+.nav-link:hover{
+   color: #f63854 !important;
+    transition: .35s;
+}
